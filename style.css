@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://images.squarespace-cdn.com/content/v1/5f329f79c232cb4ecb69ba9a/1612605366161-JMYH2SDRM98M9ZEFY31W/food+background+for+restaurant+menu-3.jpg') no-repeat center center;
+    background-size: cover;
+    border: 3px solid greenyellow;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 700px;
+}
+
+.welcome, .contact {
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: 6px solid red;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 5px red;
+}
+
+.welcome {
+    position: relative;
+    top: 15px;
+    right: 250px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    background: black;
+    color: white;
+    padding: 10px 30px;
+    border: 6px solid red;
+    border-radius: 100px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: fit-content;
+    min-height: 40px;
+    margin-bottom: 100px;
+    position: absolute;
+    top: 46px;
+    left: 270px;
+    box-shadow: 0 0 5px red;
+
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact {
+    position: absolute;
+    top: 50px;
+    right: 450px;
+}
+
+/* Circular Offer */
+.offer-circle {
+    width: 350px;
+    height: 350px;
+    background: teal;
+    color: black;
+    border-radius: 50%;
+    border: 7px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: underline;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    box-shadow: 0 0 5px green;
+}
+
+hr {
+    width: 100%;
+}
+
+/* Registration Box */
+.register-box {
+    background-color: white;
+    border: 8px dashed  red;
+    width: 320px;
+    padding: 25px;
+    text-align: center;
+    color: lightcoral;
+    margin: 0px auto 0 auto;
+    border-radius: 0px;
+    box-shadow: 0 0 5px red;
+}
+
+.register-box h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.register-box input[type="text"],
+.register-box input[type="email"],
+.register-box input[type="number"]
+.register-box input[type="date"] {
+    padding: 3px 15px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.register-box input[type="submit"],
+.register-box input[type="reset"] {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    padding: auto;
+}
+
+/* Menu Button */
+.menu-button {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 450px;
+}
+
+.menu-button h2 {
+    padding: 10px 150px;
+    font-size: 30px;
+    background: black;
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+    border: 6px solid red;
+    font-style: italic;
+    font-weight: bold;
+    box-shadow: 0 0 5px red;
+}
+
+/* Menu Section */
+.menu-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 50px 100px;
+    margin-left: 100px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+
+.menu-box {
+    background-color:lightblue;
+    border: 4px solid green;
+    border-radius: 15px;
+    width: 250px;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    color: blue;
+    text-align: center;
+
+}
+
+.menu-box h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-box ul {
+    list-style-type: disc;
+    text-align: center;
+    color: blue;
+    font-size: 18px;
+    margin: 10;
+}
