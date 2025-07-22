@@ -22,21 +22,21 @@ body {
     color: white;
     padding: 10px;
     border-radius: 20px;
-    border: 6px solid red;
+    border: 5px solid red;
     font-style: italic;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 80px;
     margin-bottom: 100px;
-    box-shadow: 0 0 5px red;
+    box-shadow: 0 0 2px red;
 }
 
 .welcome {
     position: relative;
-    top: 15px;
-    right: 250px;
+    top: 10px;
+    right: 150px;
 }
 
 .nav {
@@ -44,24 +44,24 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: nowrap;
     background: black;
     color: white;
-    padding: 10px 30px;
-    border: 6px solid red;
+    padding: 10px 20px;
+    border: 5px solid red;
     border-radius: 100px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     width: fit-content;
-    min-height: 40px;
+    min-height: 30px;
     margin-bottom: 100px;
     position: absolute;
-    top: 46px;
-    left: 270px;
-    box-shadow: 0 0 5px red;
+    top: 40px;
+    left: 155px;
+    box-shadow: 0 0 2px red;
 
 }
 
@@ -72,18 +72,18 @@ body {
 
 .contact {
     position: absolute;
-    top: 50px;
-    right: 450px;
+    top: 40px;
+    right: 350px;
 }
 
 /* Circular Offer */
 .offer-circle {
-    width: 350px;
-    height: 350px;
+    width: 270px;
+    height: 270px;
     background: teal;
     color: black;
     border-radius: 50%;
-    border: 7px solid green;
+    border: 5px solid green;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,11 +93,11 @@ body {
     padding: 10px;
     box-sizing: border-box;
     position: absolute;
-    top: 400px;
-    left: 80px;
+    top: 300px;
+    left: 50px;
     font-weight: bold;
     font-style: italic;
-    font-size: 18px;
+    font-size: 14px;
     box-shadow: 0 0 5px green;
 }
 
@@ -108,17 +108,17 @@ hr {
 /* Registration Box */
 .register-box {
     background-color: white;
-    border: 8px dashed  red;
-    width: 320px;
-    padding: 25px;
+    border: 5px dashed  red;
+    width: 230px;
+    padding: 10px;
     text-align: center;
     color: lightcoral;
-    margin: 0px auto 0 auto;
+    margin: 0px 450px 0 auto;
     border-radius: 0px;
     box-shadow: 0 0 5px red;
 }
 
-.register-box h2 {
+.register-box h4 {
     margin-bottom: 15px;
     font-weight: bold;
 }
@@ -146,17 +146,17 @@ hr {
 .menu-button {
     text-align: left;
     margin-top: 60px;
-    margin-left: 450px;
+    margin-left: 350px;
 }
 
 .menu-button h2 {
-    padding: 10px 150px;
-    font-size: 30px;
+    padding: 10px 130px;
+    font-size: 22px;
     background: black;
     color: white;
     display: inline-block;
     border-radius: 30px;
-    border: 6px solid red;
+    border: 5px solid red;
     font-style: italic;
     font-weight: bold;
     box-shadow: 0 0 5px red;
@@ -167,11 +167,11 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 50px 100px;
+    gap: 50px 50px;
     margin-left: 100px;
     margin-right: 350px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     padding: 0 20px;
 }
 
@@ -179,7 +179,7 @@ hr {
     background-color:lightblue;
     border: 4px solid green;
     border-radius: 15px;
-    width: 250px;
+    width: 180px;
     padding: 0px 15px;
     margin-bottom: 20px;
     color: blue;
@@ -190,7 +190,7 @@ hr {
 .menu-box h2 {
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
 }
@@ -199,6 +199,6 @@ hr {
     list-style-type: disc;
     text-align: center;
     color: blue;
-    font-size: 18px;
+    font-size: 14px;
     margin: 10;
 }
